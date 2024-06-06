@@ -1,6 +1,6 @@
 # embleman
 ### A set of emblem actions built on top of a previous project in
-python [numblems](https://github.com/behnamgolds/embleman) this time in Go! Because why not?!
+### python [numblems](https://github.com/behnamgolds/embleman) this time in Go! Because why not?!
 
 ![1](https://github.com/behnamgolds/embleman/assets/29102609/12e499ba-794d-47f6-b3df-958e8b431973)
 
