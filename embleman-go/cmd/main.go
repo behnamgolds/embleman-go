@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/behnamgolds/embleman-go/fsitem"
-	"github.com/behnamgolds/embleman-go/utils"
+	"github.com/behnamgolds/embleman-go/internal/fsitem"
+	"github.com/behnamgolds/embleman-go/internal/utils"
 )
 
 func main() {
