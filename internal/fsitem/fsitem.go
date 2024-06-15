@@ -35,13 +35,11 @@ func (fi *FsItem) changeNum(num int) int {
 		}
 		return num - 1
 	}
-
 }
 
 func (fi *FsItem) matchesPattern(pattern, str string) bool {
 	matched, _ := regexp.MatchString(`^emblem-num-[0-9]+-symbolic$`, str)
 	return matched
-
 }
 
 func (fi *FsItem) isIncreaseAction() bool {
@@ -81,7 +79,7 @@ func (fi *FsItem) executeNumAction() {
 		}
 	}
 
-	if !fi.numEmblemFound {
+	if !fi.numEmblemFound && fi.action != "dec" {
 		fi.setOne()
 		return
 	}
